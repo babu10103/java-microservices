@@ -13,10 +13,6 @@
                     </from>
                     <to>
                         <image>docker.io/babu103/${project.artifactId}</image>
-                        <auth>
-                            <username>docker-hub-username</username>
-                            <password>docker-hub-password</password>
-                        </auth>
                     </to>
                 </configuration>
                 <executions>
