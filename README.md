@@ -62,3 +62,6 @@ docker run -p 8181:8080 -e KC_BOOTSTRAP_ADMIN_USERNAME=admin -e KC_BOOTSTRAP_ADM
 
 1. Run `mvn clean verify -DskipTests` by going inside each folder to build the applications.
 2. After that run `mvn spring-boot:run` by going inside each folder to start the applications.
+
+
+** tutorial link: https://www.youtube.com/playlist?list=PLSVW22jAG8pBnhAdq9S8BpLnZ0_jVBj0c
