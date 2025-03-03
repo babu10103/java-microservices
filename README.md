@@ -42,6 +42,19 @@
     </servers>
 </settings>
 ```
+you can also set environment variables in your system to avoid hardcoding the credentials either in pom.xml or settings.xml file.
+```xml
+<settings>
+    <servers>
+        <server>
+            <id>registry.hub.docker.com</id>
+            <username>${env.DOCKER_USERNAME}</username>
+            <password>${env.DOCKER_PASSWORD}</password>
+        </server>
+    </servers>
+</settings>
+```
+
 
 ### zipkin service
 ```shell
